@@ -1,0 +1,19 @@
+{
+    "variables": [
+        {
+            "name": "node1",
+            "type": "Node",
+            "value": null
+        },
+        {
+            "name": "node2",
+            "type": "Node",
+            "value": null
+        },
+        {
+            "name": "tree1",
+            "type": "BinaryTree",
+            "value": null
+        }
+    ]
+}

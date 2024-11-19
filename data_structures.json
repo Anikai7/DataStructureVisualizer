@@ -1,0 +1,25 @@
+{
+    "data_structures": [
+        {
+            "name": "Node",
+            "data": [
+                "int",
+                "Node *"
+            ]
+        },
+        {
+            "name": "BinaryTree",
+            "data": [
+                "int",
+                "BinaryTree *",
+                "BinaryTree *"
+            ]
+        },
+        {
+            "name": "LinkedList",
+            "data": [
+                "data"
+            ]
+        }
+    ]
+}

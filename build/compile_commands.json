@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/ani/Coding/projects/DataStructureVisualizer/build",
+  "command": "/usr/bin/c++  -I/home/ani/Coding/projects/DataStructureVisualizer/include -g -std=gnu++17 -o CMakeFiles/DataStructureVisualizer.dir/src/main.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/src/main.cpp",
+  "file": "/home/ani/Coding/projects/DataStructureVisualizer/src/main.cpp",
+  "output": "CMakeFiles/DataStructureVisualizer.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ani/Coding/projects/DataStructureVisualizer/build",
+  "command": "/usr/bin/c++  -I/home/ani/Coding/projects/DataStructureVisualizer/include -g -std=gnu++17 -o CMakeFiles/DataStructureVisualizer.dir/src/DataVisualizer.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/src/DataVisualizer.cpp",
+  "file": "/home/ani/Coding/projects/DataStructureVisualizer/src/DataVisualizer.cpp",
+  "output": "CMakeFiles/DataStructureVisualizer.dir/src/DataVisualizer.cpp.o"
+}
+]
