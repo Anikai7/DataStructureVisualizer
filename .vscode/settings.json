@@ -64,6 +64,13 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "format": "cpp",
-        "__nullptr": "cpp"
+        "__nullptr": "cpp",
+        "any": "cpp",
+        "codecvt": "cpp",
+        "forward_list": "cpp",
+        "fstream": "cpp",
+        "ranges": "cpp",
+        "valarray": "cpp",
+        "filesystem": "cpp"
     }
 }

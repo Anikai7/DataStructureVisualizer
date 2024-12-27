@@ -11,14 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake"
-  "/usr/local/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
-  "/usr/local/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
-  "/usr/local/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config-version.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
@@ -106,8 +100,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
-  "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
-  "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.28/Modules/FeatureSummary.cmake"
   "/usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake"
@@ -136,5 +129,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/DataStructureVisualizer.dir/DependInfo.cmake"
+  "CMakeFiles/DSV.dir/DependInfo.cmake"
   )

@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "DataStructureVisualizer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DataStructureVisualizer-Debug-ce1458adb6173a4f84c3.json",
-					"name" : "DataStructureVisualizer",
+					"id" : "DSV::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DSV-Debug-e35b328e8ef43e29e961.json",
+					"name" : "DSV",
 					"projectIndex" : 0
 				}
 			]

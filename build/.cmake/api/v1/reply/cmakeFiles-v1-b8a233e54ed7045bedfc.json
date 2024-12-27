@@ -766,45 +766,16 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake"
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config-version.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/local/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/local/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/local/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
+			"path" : "/usr/share/cmake-3.28/Modules/FeatureSummary.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

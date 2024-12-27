@@ -1,4 +1,4 @@
-CMakeFiles/DataStructureVisualizer.dir/src/main.cpp.o: \
+CMakeFiles/DSV.dir/src/main.cpp.o: \
  /home/ani/Coding/projects/DataStructureVisualizer/src/main.cpp \
  /usr/include/stdc-predef.h \
  /home/ani/Coding/projects/DataStructureVisualizer/src/DataVisualizer.h \

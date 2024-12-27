@@ -20,20 +20,24 @@ def parse_file(file_path):
         if node.kind == clang.cindex.CursorKind.STRUCT_DECL and node.is_definition() and node.location.file and node.location.file.name == file_path:
             struct_type = node.spelling
             child_type = []
+            child_name = []
 
             for child in node.get_children():
                 child_type.append(child.type.spelling)
+                child_name.append(child.spelling)
 
-            data_structures.append({"name":struct_type,"data":child_type})
+            data_structures.append({"name":struct_type,"name":child_name,"data_type":child_type})
         elif node.kind ==  clang.cindex.CursorKind.CLASS_DECL and node.location.file and node.location.file.name == file_path:
             class_type = node.spelling
             fields = []
+            fields_name = []
 
             for child in node.get_children():
                 if child.kind == clang.cindex.CursorKind.FIELD_DECL:
                     fields.append(child.type.spelling)
+                    fields_name.append(child.spelling)
             
-            data_structures.append({"name":class_type,"data":fields})
+            data_structures.append({"name":class_type,"name":fields_name,"data_type":fields})
         elif node.kind == clang.cindex.CursorKind.VAR_DECL and node.location.file and node.location.file.name == file_path:
             var_name = node.spelling
             var_type = node.type.spelling

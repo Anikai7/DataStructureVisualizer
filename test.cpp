@@ -16,12 +16,15 @@ struct BinaryTree {
 class LinkedList{
     public:
         int data;
+        LinkedList* next;
 };
 
 int main() {
     Node node1 = {10, nullptr};
     Node node2 = {20, nullptr};
     node1.next = &node2;
+
+    LinkedList node;
     
     BinaryTree tree1 = {30, nullptr, nullptr};
 

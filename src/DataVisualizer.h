@@ -6,17 +6,18 @@
 
 struct DataStructure {
     std::string name;
-    std::vector<std::string> data;
+    std::string type;
+    std::string value;
 };
 
 class DataVisualizer {
 public:
     DataVisualizer(const std::string& filename);
-    void loadFromFile(const std::string& filename);
+    void parseJSONFile(const std::string& filename);
     void render();
 
 private:
-    std::vector<DataStructure> data_structures;
+    std::vector<std::string> variables;
 };
 
 

@@ -1182,28 +1182,28 @@
 			"value" : "/home/ani/Coding/projects/DataStructureVisualizer"
 		},
 		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json",
+			"name" : "NLOHMANN_JSON_INCLUDE_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Details about finding nlohmann_json"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "[/usr/local/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.3()]"
-		},
-		{
-			"name" : "SFML_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SFML."
+					"value" : "Path to a file."
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/SFML"
+			"value" : "/usr/local/include"
+		},
+		{
+			"name" : "SDL2_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL2."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -1216,18 +1216,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
-		},
-		{
-			"name" : "nlohmann_json_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for nlohmann_json."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/local/share/cmake/nlohmann_json"
 		}
 	],
 	"kind" : "cache",

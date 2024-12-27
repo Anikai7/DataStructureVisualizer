@@ -223,11 +223,11 @@ DataStructureVisualizer_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 DataStructureVisualizer_SOURCE_DIR:STATIC=/home/ani/Coding/projects/DataStructureVisualizer
 
-//The directory containing a CMake configuration file for SFML.
-SFML_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SFML
+//Path to a file.
+NLOHMANN_JSON_INCLUDE_DIR:PATH=/usr/local/include
 
-//The directory containing a CMake configuration file for nlohmann_json.
-nlohmann_json_DIR:PATH=/usr/local/share/cmake/nlohmann_json
+//The directory containing a CMake configuration file for SDL2.
+SDL2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL2
 
 
 ########################
@@ -377,8 +377,6 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding nlohmann_json
-FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[/usr/local/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.3()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 

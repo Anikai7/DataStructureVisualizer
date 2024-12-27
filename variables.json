@@ -11,6 +11,11 @@
             "value": null
         },
         {
+            "name": "node",
+            "type": "LinkedList",
+            "value": null
+        },
+        {
             "name": "tree1",
             "type": "BinaryTree",
             "value": null

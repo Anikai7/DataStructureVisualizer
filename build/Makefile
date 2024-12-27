@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DataStructureVisualizer
+# Target rules for targets named DSV
 
 # Build rule for target.
-DataStructureVisualizer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DataStructureVisualizer
-.PHONY : DataStructureVisualizer
+DSV: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DSV
+.PHONY : DSV
 
 # fast build rule for target.
-DataStructureVisualizer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureVisualizer.dir/build.make CMakeFiles/DataStructureVisualizer.dir/build
-.PHONY : DataStructureVisualizer/fast
+DSV/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/build
+.PHONY : DSV/fast
 
 src/DataVisualizer.o: src/DataVisualizer.cpp.o
 .PHONY : src/DataVisualizer.o
 
 # target to build an object file
 src/DataVisualizer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureVisualizer.dir/build.make CMakeFiles/DataStructureVisualizer.dir/src/DataVisualizer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/DataVisualizer.cpp.o
 .PHONY : src/DataVisualizer.cpp.o
 
 src/DataVisualizer.i: src/DataVisualizer.cpp.i
@@ -142,7 +142,7 @@ src/DataVisualizer.i: src/DataVisualizer.cpp.i
 
 # target to preprocess a source file
 src/DataVisualizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureVisualizer.dir/build.make CMakeFiles/DataStructureVisualizer.dir/src/DataVisualizer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/DataVisualizer.cpp.i
 .PHONY : src/DataVisualizer.cpp.i
 
 src/DataVisualizer.s: src/DataVisualizer.cpp.s
@@ -150,7 +150,7 @@ src/DataVisualizer.s: src/DataVisualizer.cpp.s
 
 # target to generate assembly for a file
 src/DataVisualizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureVisualizer.dir/build.make CMakeFiles/DataStructureVisualizer.dir/src/DataVisualizer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/DataVisualizer.cpp.s
 .PHONY : src/DataVisualizer.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -158,7 +158,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureVisualizer.dir/build.make CMakeFiles/DataStructureVisualizer.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -166,7 +166,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureVisualizer.dir/build.make CMakeFiles/DataStructureVisualizer.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +174,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureVisualizer.dir/build.make CMakeFiles/DataStructureVisualizer.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DataStructureVisualizer"
+	@echo "... DSV"
 	@echo "... src/DataVisualizer.o"
 	@echo "... src/DataVisualizer.i"
 	@echo "... src/DataVisualizer.s"
