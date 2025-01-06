@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DSV.dir/src/DataVisualizer.cpp.o"
-  "CMakeFiles/DSV.dir/src/DataVisualizer.cpp.o.d"
-  "CMakeFiles/DSV.dir/src/main.cpp.o"
-  "CMakeFiles/DSV.dir/src/main.cpp.o.d"
+  "CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o"
+  "CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o.d"
+  "CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o"
+  "CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o.d"
+  "CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o"
+  "CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o.d"
   "DSV"
   "DSV.pdb"
 )

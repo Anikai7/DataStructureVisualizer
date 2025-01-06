@@ -4,20 +4,27 @@
 #include <vector>
 #include <string>
 
-struct DataStructure {
+struct Data {
     std::string name;
     std::string type;
     std::string value;
+
+    std::pair<int,int> objPos;
 };
 
 class DataVisualizer {
 public:
+
+    int cameraX;
+    int cameraY;
+
     DataVisualizer(const std::string& filename);
     void parseJSONFile(const std::string& filename);
     void render();
 
 private:
-    std::vector<std::string> variables;
+    std::vector<Data*> variables;
+    
 };
 
 

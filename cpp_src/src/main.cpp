@@ -1,4 +1,4 @@
-#include "DataVisualizer.h"
+#include "./DataVisualizer.h"
 
 int main() {
     DataVisualizer visualizer("/home/ani/Coding/projects/DataStructureVisualizer/variables.json");

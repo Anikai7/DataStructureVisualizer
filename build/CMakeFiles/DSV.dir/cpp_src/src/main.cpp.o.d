@@ -1,7 +1,7 @@
-CMakeFiles/DSV.dir/src/main.cpp.o: \
- /home/ani/Coding/projects/DataStructureVisualizer/src/main.cpp \
+CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o: \
+ /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/ani/Coding/projects/DataStructureVisualizer/src/DataVisualizer.h \
+ /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/include/./DataVisualizer.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

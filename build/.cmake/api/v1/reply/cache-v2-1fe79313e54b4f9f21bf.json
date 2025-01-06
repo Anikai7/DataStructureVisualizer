@@ -274,134 +274,6 @@
 			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
-			"name" : "CMAKE_C_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "C compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/cc"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_AR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-13"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_RANLIB",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-13"
-		},
-		{
-			"name" : "CMAKE_C_FLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the C compiler during all build types."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_C_FLAGS_DEBUG",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the C compiler during DEBUG builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-g"
-		},
-		{
-			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the C compiler during MINSIZEREL builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-Os -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_C_FLAGS_RELEASE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the C compiler during RELEASE builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-O3 -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-O2 -g -DNDEBUG"
-		},
-		{
 			"name" : "CMAKE_DLLTOOL",
 			"properties" : 
 			[
@@ -850,6 +722,66 @@
 			"value" : "DataStructureVisualizer"
 		},
 		{
+			"name" : "CMAKE_PROJECT_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "1.0"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_MINOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "0"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_PATCH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_RANLIB",
 			"properties" : 
 			[
@@ -1182,16 +1114,16 @@
 			"value" : "/home/ani/Coding/projects/DataStructureVisualizer"
 		},
 		{
-			"name" : "NLOHMANN_JSON_INCLUDE_DIR",
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Python3",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a file."
+					"value" : "Details about finding Python3"
 				}
 			],
-			"type" : "PATH",
-			"value" : "/usr/local/include"
+			"type" : "INTERNAL",
+			"value" : "[/usr/bin/python3][cfound components: Interpreter ][v3.12.3()]"
 		},
 		{
 			"name" : "SDL2_DIR",
@@ -1216,6 +1148,78 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
+		},
+		{
+			"name" : "_Python3_Compiler_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compiler reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_Python3_Development_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Development reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_Python3_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/python3"
+		},
+		{
+			"name" : "_Python3_INTERPRETER_PROPERTIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Python3 Properties"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Python;3;12;3;64;32;;cpython-312-x86_64-linux-gnu;abi3;/usr/lib/python3.12;/usr/lib/python3.12;/usr/local/lib/python3.12/dist-packages;/usr/local/lib/python3.12/dist-packages"
+		},
+		{
+			"name" : "_Python3_INTERPRETER_SIGNATURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "4c8bfa8951e99fa32e4000a94f8c04a2"
+		},
+		{
+			"name" : "_Python3_NumPy_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "NumPy reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
 		}
 	],
 	"kind" : "cache",

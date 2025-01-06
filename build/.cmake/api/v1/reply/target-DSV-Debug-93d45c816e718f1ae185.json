@@ -26,19 +26,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 20,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 10,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 21,
 				"parent" : 0
 			}
 		]
@@ -56,6 +62,14 @@
 			[
 				{
 					"backtrace" : 3,
+					"path" : "/home/ani/Coding/projects/DataStructureVisualizer/cpp_src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ani/Coding/projects/DataStructureVisualizer/include"
+				},
+				{
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/usr/include/SDL2"
 				}
@@ -72,7 +86,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -111,7 +126,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -120,13 +136,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/main.cpp",
+			"path" : "cpp_src/src/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/DataVisualizer.cpp",
+			"path" : "cpp_src/src/DataVisualizer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cpp_src/src/DataRender.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

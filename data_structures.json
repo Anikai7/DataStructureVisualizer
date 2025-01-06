@@ -1,21 +1,14 @@
 {
     "data_structures": [
         {
-            "name": [
-                "data",
-                "next"
-            ],
+            "name": "Node",
             "data_type": [
                 "int",
                 "Node *"
             ]
         },
         {
-            "name": [
-                "value",
-                "left",
-                "right"
-            ],
+            "name": "BinaryTree",
             "data_type": [
                 "int",
                 "BinaryTree *",
@@ -23,7 +16,8 @@
             ]
         },
         {
-            "name": [
+            "name": "LinkedList",
+            "fields": [
                 "data",
                 "next"
             ],

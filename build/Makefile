@@ -129,53 +129,77 @@ DSV/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/build
 .PHONY : DSV/fast
 
-src/DataVisualizer.o: src/DataVisualizer.cpp.o
-.PHONY : src/DataVisualizer.o
+cpp_src/src/DataRender.o: cpp_src/src/DataRender.cpp.o
+.PHONY : cpp_src/src/DataRender.o
 
 # target to build an object file
-src/DataVisualizer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/DataVisualizer.cpp.o
-.PHONY : src/DataVisualizer.cpp.o
+cpp_src/src/DataRender.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o
+.PHONY : cpp_src/src/DataRender.cpp.o
 
-src/DataVisualizer.i: src/DataVisualizer.cpp.i
-.PHONY : src/DataVisualizer.i
+cpp_src/src/DataRender.i: cpp_src/src/DataRender.cpp.i
+.PHONY : cpp_src/src/DataRender.i
 
 # target to preprocess a source file
-src/DataVisualizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/DataVisualizer.cpp.i
-.PHONY : src/DataVisualizer.cpp.i
+cpp_src/src/DataRender.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.i
+.PHONY : cpp_src/src/DataRender.cpp.i
 
-src/DataVisualizer.s: src/DataVisualizer.cpp.s
-.PHONY : src/DataVisualizer.s
+cpp_src/src/DataRender.s: cpp_src/src/DataRender.cpp.s
+.PHONY : cpp_src/src/DataRender.s
 
 # target to generate assembly for a file
-src/DataVisualizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/DataVisualizer.cpp.s
-.PHONY : src/DataVisualizer.cpp.s
+cpp_src/src/DataRender.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.s
+.PHONY : cpp_src/src/DataRender.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+cpp_src/src/DataVisualizer.o: cpp_src/src/DataVisualizer.cpp.o
+.PHONY : cpp_src/src/DataVisualizer.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+cpp_src/src/DataVisualizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o
+.PHONY : cpp_src/src/DataVisualizer.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+cpp_src/src/DataVisualizer.i: cpp_src/src/DataVisualizer.cpp.i
+.PHONY : cpp_src/src/DataVisualizer.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+cpp_src/src/DataVisualizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.i
+.PHONY : cpp_src/src/DataVisualizer.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+cpp_src/src/DataVisualizer.s: cpp_src/src/DataVisualizer.cpp.s
+.PHONY : cpp_src/src/DataVisualizer.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+cpp_src/src/DataVisualizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.s
+.PHONY : cpp_src/src/DataVisualizer.cpp.s
+
+cpp_src/src/main.o: cpp_src/src/main.cpp.o
+.PHONY : cpp_src/src/main.o
+
+# target to build an object file
+cpp_src/src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o
+.PHONY : cpp_src/src/main.cpp.o
+
+cpp_src/src/main.i: cpp_src/src/main.cpp.i
+.PHONY : cpp_src/src/main.i
+
+# target to preprocess a source file
+cpp_src/src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/main.cpp.i
+.PHONY : cpp_src/src/main.cpp.i
+
+cpp_src/src/main.s: cpp_src/src/main.cpp.s
+.PHONY : cpp_src/src/main.s
+
+# target to generate assembly for a file
+cpp_src/src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/main.cpp.s
+.PHONY : cpp_src/src/main.cpp.s
 
 # Help Target
 help:
@@ -186,12 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DSV"
-	@echo "... src/DataVisualizer.o"
-	@echo "... src/DataVisualizer.i"
-	@echo "... src/DataVisualizer.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... cpp_src/src/DataRender.o"
+	@echo "... cpp_src/src/DataRender.i"
+	@echo "... cpp_src/src/DataRender.s"
+	@echo "... cpp_src/src/DataVisualizer.o"
+	@echo "... cpp_src/src/DataVisualizer.i"
+	@echo "... cpp_src/src/DataVisualizer.s"
+	@echo "... cpp_src/src/main.o"
+	@echo "... cpp_src/src/main.i"
+	@echo "... cpp_src/src/main.s"
 .PHONY : help
 
 

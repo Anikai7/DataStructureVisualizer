@@ -71,6 +71,9 @@
         "fstream": "cpp",
         "ranges": "cpp",
         "valarray": "cpp",
-        "filesystem": "cpp"
+        "filesystem": "cpp",
+        "set": "cpp",
+        "shared_mutex": "cpp",
+        "cfenv": "cpp"
     }
 }

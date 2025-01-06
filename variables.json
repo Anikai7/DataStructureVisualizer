@@ -3,22 +3,27 @@
         {
             "name": "node1",
             "type": "Node",
-            "value": null
+            "value": [
+                "10",
+                "nullptr"
+            ]
         },
         {
             "name": "node2",
             "type": "Node",
-            "value": null
-        },
-        {
-            "name": "node",
-            "type": "LinkedList",
-            "value": null
+            "value": [
+                "20",
+                "nullptr"
+            ]
         },
         {
             "name": "tree1",
             "type": "BinaryTree",
-            "value": null
+            "value": [
+                "30",
+                "nullptr",
+                "nullptr"
+            ]
         }
     ]
 }
