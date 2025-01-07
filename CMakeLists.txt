@@ -41,6 +41,7 @@ add_executable(DSV
     cpp_src/src/main.cpp
     cpp_src/src/DataVisualizer.cpp
     cpp_src/src/DataRender.cpp
+    cpp_src/src/mouseEvent.cpp
 )
 
 # Link SDL2 and JSON libraries

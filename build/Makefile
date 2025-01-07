@@ -201,6 +201,30 @@ cpp_src/src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/main.cpp.s
 .PHONY : cpp_src/src/main.cpp.s
 
+cpp_src/src/mouseEvent.o: cpp_src/src/mouseEvent.cpp.o
+.PHONY : cpp_src/src/mouseEvent.o
+
+# target to build an object file
+cpp_src/src/mouseEvent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o
+.PHONY : cpp_src/src/mouseEvent.cpp.o
+
+cpp_src/src/mouseEvent.i: cpp_src/src/mouseEvent.cpp.i
+.PHONY : cpp_src/src/mouseEvent.i
+
+# target to preprocess a source file
+cpp_src/src/mouseEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.i
+.PHONY : cpp_src/src/mouseEvent.cpp.i
+
+cpp_src/src/mouseEvent.s: cpp_src/src/mouseEvent.cpp.s
+.PHONY : cpp_src/src/mouseEvent.s
+
+# target to generate assembly for a file
+cpp_src/src/mouseEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSV.dir/build.make CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.s
+.PHONY : cpp_src/src/mouseEvent.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... cpp_src/src/main.o"
 	@echo "... cpp_src/src/main.i"
 	@echo "... cpp_src/src/main.s"
+	@echo "... cpp_src/src/mouseEvent.o"
+	@echo "... cpp_src/src/mouseEvent.i"
+	@echo "... cpp_src/src/mouseEvent.s"
 .PHONY : help
 
 

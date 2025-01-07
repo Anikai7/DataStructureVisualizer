@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o.d"
   "CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o"
   "CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o.d"
+  "CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o"
+  "CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o.d"
   "DSV"
   "DSV.pdb"
 )

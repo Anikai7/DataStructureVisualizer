@@ -16,5 +16,11 @@
   "command": "/usr/bin/c++  -I/home/ani/Coding/projects/DataStructureVisualizer/cpp_src/include -I/home/ani/Coding/projects/DataStructureVisualizer/include -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/DataRender.cpp",
   "file": "/home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/DataRender.cpp",
   "output": "CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o"
+},
+{
+  "directory": "/home/ani/Coding/projects/DataStructureVisualizer/build",
+  "command": "/usr/bin/c++  -I/home/ani/Coding/projects/DataStructureVisualizer/cpp_src/include -I/home/ani/Coding/projects/DataStructureVisualizer/include -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/mouseEvent.cpp",
+  "file": "/home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/mouseEvent.cpp",
+  "output": "CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o"
 }
 ]

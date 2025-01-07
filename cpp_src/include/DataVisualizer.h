@@ -4,6 +4,10 @@
 #include <vector>
 #include <string>
 
+
+int cameraX;
+int cameraY;
+
 struct Data {
     std::string name;
     std::string type;
@@ -15,9 +19,6 @@ struct Data {
 class DataVisualizer {
 public:
 
-    int cameraX;
-    int cameraY;
-
     DataVisualizer(const std::string& filename);
     void parseJSONFile(const std::string& filename);
     void render();
@@ -25,6 +26,14 @@ public:
 private:
     std::vector<Data*> variables;
     
+};
+
+class menu{
+    public:
+
+        menu(){
+            
+        }
 };
 
 
