@@ -69,80 +69,144 @@ include CMakeFiles/DSV.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DSV.dir/flags.make
 
-CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o: CMakeFiles/DSV.dir/flags.make
-CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/main.cpp
-CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o -MF CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o.d -o CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/main.cpp
+CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o: CMakeFiles/DSV.dir/flags.make
+CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataRender.cpp
+CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o -MF CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o.d -o CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataRender.cpp
 
-CMakeFiles/DSV.dir/cpp_src/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/cpp_src/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/main.cpp > CMakeFiles/DSV.dir/cpp_src/src/main.cpp.i
+CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataRender.cpp > CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.i
 
-CMakeFiles/DSV.dir/cpp_src/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/cpp_src/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/main.cpp -o CMakeFiles/DSV.dir/cpp_src/src/main.cpp.s
+CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataRender.cpp -o CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.s
 
-CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o: CMakeFiles/DSV.dir/flags.make
-CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/DataVisualizer.cpp
-CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o -MF CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o.d -o CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/DataVisualizer.cpp
+CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o: CMakeFiles/DSV.dir/flags.make
+CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataVisualizer.cpp
+CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o -MF CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o.d -o CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataVisualizer.cpp
 
-CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/DataVisualizer.cpp > CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.i
+CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataVisualizer.cpp > CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.i
 
-CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/DataVisualizer.cpp -o CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.s
+CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataVisualizer.cpp -o CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.s
 
-CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o: CMakeFiles/DSV.dir/flags.make
-CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/DataRender.cpp
-CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o -MF CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o.d -o CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/DataRender.cpp
+CMakeFiles/DSV.dir/cpp/src/main.cpp.o: CMakeFiles/DSV.dir/flags.make
+CMakeFiles/DSV.dir/cpp/src/main.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/main.cpp
+CMakeFiles/DSV.dir/cpp/src/main.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DSV.dir/cpp/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/cpp/src/main.cpp.o -MF CMakeFiles/DSV.dir/cpp/src/main.cpp.o.d -o CMakeFiles/DSV.dir/cpp/src/main.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/main.cpp
 
-CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/DataRender.cpp > CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.i
+CMakeFiles/DSV.dir/cpp/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/cpp/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/main.cpp > CMakeFiles/DSV.dir/cpp/src/main.cpp.i
 
-CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/DataRender.cpp -o CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.s
+CMakeFiles/DSV.dir/cpp/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/cpp/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/main.cpp -o CMakeFiles/DSV.dir/cpp/src/main.cpp.s
 
-CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o: CMakeFiles/DSV.dir/flags.make
-CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/mouseEvent.cpp
-CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o -MF CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o.d -o CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/mouseEvent.cpp
+CMakeFiles/DSV.dir/imgui/imgui.cpp.o: CMakeFiles/DSV.dir/flags.make
+CMakeFiles/DSV.dir/imgui/imgui.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui.cpp
+CMakeFiles/DSV.dir/imgui/imgui.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DSV.dir/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/imgui/imgui.cpp.o -MF CMakeFiles/DSV.dir/imgui/imgui.cpp.o.d -o CMakeFiles/DSV.dir/imgui/imgui.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui.cpp
 
-CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/mouseEvent.cpp > CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.i
+CMakeFiles/DSV.dir/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui.cpp > CMakeFiles/DSV.dir/imgui/imgui.cpp.i
 
-CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/cpp_src/src/mouseEvent.cpp -o CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.s
+CMakeFiles/DSV.dir/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui.cpp -o CMakeFiles/DSV.dir/imgui/imgui.cpp.s
+
+CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.o: CMakeFiles/DSV.dir/flags.make
+CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_demo.cpp
+CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.o -MF CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.o.d -o CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_demo.cpp
+
+CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_demo.cpp > CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.i
+
+CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_demo.cpp -o CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.s
+
+CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.o: CMakeFiles/DSV.dir/flags.make
+CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_draw.cpp
+CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.o -MF CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.o.d -o CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_draw.cpp
+
+CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_draw.cpp > CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.i
+
+CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_draw.cpp -o CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.s
+
+CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.o: CMakeFiles/DSV.dir/flags.make
+CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_tables.cpp
+CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.o -MF CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.o.d -o CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_tables.cpp
+
+CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_tables.cpp > CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.i
+
+CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_tables.cpp -o CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.s
+
+CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/DSV.dir/flags.make
+CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.o: /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_widgets.cpp
+CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/DSV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.o -MF CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_widgets.cpp
+
+CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_widgets.cpp > CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ani/Coding/projects/DataStructureVisualizer/imgui/imgui_widgets.cpp -o CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.s
 
 # Object files for target DSV
 DSV_OBJECTS = \
-"CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o" \
-"CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o" \
-"CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o" \
-"CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o"
+"CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o" \
+"CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o" \
+"CMakeFiles/DSV.dir/cpp/src/main.cpp.o" \
+"CMakeFiles/DSV.dir/imgui/imgui.cpp.o" \
+"CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.o"
 
 # External object files for target DSV
 DSV_EXTERNAL_OBJECTS =
 
-DSV: CMakeFiles/DSV.dir/cpp_src/src/main.cpp.o
-DSV: CMakeFiles/DSV.dir/cpp_src/src/DataVisualizer.cpp.o
-DSV: CMakeFiles/DSV.dir/cpp_src/src/DataRender.cpp.o
-DSV: CMakeFiles/DSV.dir/cpp_src/src/mouseEvent.cpp.o
+DSV: CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o
+DSV: CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o
+DSV: CMakeFiles/DSV.dir/cpp/src/main.cpp.o
+DSV: CMakeFiles/DSV.dir/imgui/imgui.cpp.o
+DSV: CMakeFiles/DSV.dir/imgui/imgui_demo.cpp.o
+DSV: CMakeFiles/DSV.dir/imgui/imgui_draw.cpp.o
+DSV: CMakeFiles/DSV.dir/imgui/imgui_tables.cpp.o
+DSV: CMakeFiles/DSV.dir/imgui/imgui_widgets.cpp.o
 DSV: CMakeFiles/DSV.dir/build.make
-DSV: /usr/lib/x86_64-linux-gnu/libSDL2.so
+DSV: /usr/lib/x86_64-linux-gnu/libGL.so
 DSV: CMakeFiles/DSV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DSV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ani/Coding/projects/DataStructureVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable DSV"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DSV.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

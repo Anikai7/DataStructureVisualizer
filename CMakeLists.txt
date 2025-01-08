@@ -1,4 +1,3 @@
-# CMakeLists.txt
 cmake_minimum_required(VERSION 3.10)
 
 # Project name and version
@@ -8,44 +7,55 @@ project(DataStructureVisualizer VERSION 1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Enable debugging information
-set(CMAKE_BUILD_TYPE Debug)
+# Set build type (default to Debug)
+if (NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Debug)
+endif()
 
-# Include directories
-include_directories(${CMAKE_SOURCE_DIR}/cpp_src/include)
-include_directories(/usr/local/include)
+# Include directories for SDL2 and other libraries
+include_directories(
+    ${CMAKE_SOURCE_DIR}/cpp_src/include
+    ${CMAKE_SOURCE_DIR}/imgui
+    ${CMAKE_SOURCE_DIR}/imgui/include
+    ${CMAKE_SOURCE_DIR}/imgui/backends
+    ${CMAKE_SOURCE_DIR}/external/SDL2/include  # Add SDL2 headers
+)
 
-# Find SDL2
-find_package(SDL2 REQUIRED)
-if (SDL2_FOUND)
-    include_directories(${SDL2_INCLUDE_DIRS})
-    message(STATUS "SDL2 found: ${SDL2_INCLUDE_DIRS}")
-else ()
-    message(FATAL_ERROR "SDL2 not found! Please install SDL2 development libraries.")
-endif ()
+# Add SDL2 source files
+file(GLOB SDL2_SOURCES
+    ${CMAKE_SOURCE_DIR}/external/SDL2/src/*.c
+    ${CMAKE_SOURCE_DIR}/external/SDL2/src/main/*.c
+)
 
-# Include nlohmann/json as a header-only library
+# Add nlohmann/json as a header-only library
 add_library(nlohmann_json INTERFACE)
 target_include_directories(nlohmann_json INTERFACE ${CMAKE_SOURCE_DIR}/include)
 
-# Add Python interpreter (optional for Clang workflow)
-find_package(Python3 COMPONENTS Interpreter REQUIRED)
-if (Python3_FOUND)
-    message(STATUS "Python3 found: ${Python3_EXECUTABLE}")
-else ()
-    message(FATAL_ERROR "Python3 not found! Make sure Python3 is installed.")
-endif ()
-
 # Add source files
-add_executable(DSV
-    cpp_src/src/main.cpp
-    cpp_src/src/DataVisualizer.cpp
-    cpp_src/src/DataRender.cpp
-    cpp_src/src/mouseEvent.cpp
+file(GLOB_RECURSE PROJECT_SOURCES
+    ${CMAKE_SOURCE_DIR}/cpp/src/*.cpp
+    ${CMAKE_SOURCE_DIR}/cpp/src/main.cpp
 )
 
-# Link SDL2 and JSON libraries
-target_link_libraries(DSV ${SDL2_LIBRARIES} nlohmann_json)
+# Add ImGui source files
+file(GLOB IMGUI_SOURCES
+    ${CMAKE_SOURCE_DIR}/imgui/*.cpp
+    ${CMAKE_SOURCE_DIR}/imgui/backends/imgui_impl_sdl.cpp
+    ${CMAKE_SOURCE_DIR}/imgui/backends/imgui_impl_opengl3.cpp
+)
+
+# Find OpenGL
+find_package(OpenGL REQUIRED)
+
+# Add executable target
+add_executable(DSV ${PROJECT_SOURCES} ${IMGUI_SOURCES} ${SDL2_SOURCES})
+
+# Link libraries
+if (OpenGL_FOUND)
+    target_link_libraries(DSV OpenGL::GL nlohmann_json)
+else()
+    message(FATAL_ERROR "OpenGL not found! Make sure OpenGL is installed.")
+endif()
 
 # Print project information
 message(STATUS "Project binary directory: ${PROJECT_BINARY_DIR}")
