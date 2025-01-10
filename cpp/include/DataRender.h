@@ -4,6 +4,7 @@
 #include<iostream>
 #include"DataVisualizer.h"
 
-void renderVariables(SDL_Renderer* renderer, const std::vector<Data*>& variables,int CameraX,int cameraY);
+void DrawCircle(sf::RenderWindow& window, int centerX, int centerY, int radius);
+void renderVariables(sf::RenderWindow& window, const std::vector<Data*>& variables,sf::Vector2f cameraPos);
 
 #endif

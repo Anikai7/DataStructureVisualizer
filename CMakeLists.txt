@@ -12,19 +12,9 @@ if (NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Debug)
 endif()
 
-# Include directories for SDL2 and other libraries
+# Include directories for project headers
 include_directories(
-    ${CMAKE_SOURCE_DIR}/cpp_src/include
-    ${CMAKE_SOURCE_DIR}/imgui
-    ${CMAKE_SOURCE_DIR}/imgui/include
-    ${CMAKE_SOURCE_DIR}/imgui/backends
-    ${CMAKE_SOURCE_DIR}/external/SDL2/include  # Add SDL2 headers
-)
-
-# Add SDL2 source files
-file(GLOB SDL2_SOURCES
-    ${CMAKE_SOURCE_DIR}/external/SDL2/src/*.c
-    ${CMAKE_SOURCE_DIR}/external/SDL2/src/main/*.c
+    ${CMAKE_SOURCE_DIR}/cpp/include
 )
 
 # Add nlohmann/json as a header-only library
@@ -37,24 +27,17 @@ file(GLOB_RECURSE PROJECT_SOURCES
     ${CMAKE_SOURCE_DIR}/cpp/src/main.cpp
 )
 
-# Add ImGui source files
-file(GLOB IMGUI_SOURCES
-    ${CMAKE_SOURCE_DIR}/imgui/*.cpp
-    ${CMAKE_SOURCE_DIR}/imgui/backends/imgui_impl_sdl.cpp
-    ${CMAKE_SOURCE_DIR}/imgui/backends/imgui_impl_opengl3.cpp
-)
-
-# Find OpenGL
-find_package(OpenGL REQUIRED)
+# Find SFML
+find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 
 # Add executable target
-add_executable(DSV ${PROJECT_SOURCES} ${IMGUI_SOURCES} ${SDL2_SOURCES})
+add_executable(DSV ${PROJECT_SOURCES})
 
-# Link libraries
-if (OpenGL_FOUND)
-    target_link_libraries(DSV OpenGL::GL nlohmann_json)
+# Link SFML libraries
+if (SFML_FOUND)
+    target_link_libraries(DSV sfml-graphics sfml-window sfml-system nlohmann_json)
 else()
-    message(FATAL_ERROR "OpenGL not found! Make sure OpenGL is installed.")
+    message(FATAL_ERROR "SFML not found! Make sure SFML is installed.")
 endif()
 
 # Print project information

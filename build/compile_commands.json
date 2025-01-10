@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/ani/Coding/projects/DataStructureVisualizer/build",
+  "command": "/usr/bin/c++  -I/home/ani/Coding/projects/DataStructureVisualizer/cpp/include -I/home/ani/Coding/projects/DataStructureVisualizer/include -g -std=gnu++17 -o CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataRender.cpp",
+  "file": "/home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataRender.cpp",
+  "output": "CMakeFiles/DSV.dir/cpp/src/DataRender.cpp.o"
+},
+{
+  "directory": "/home/ani/Coding/projects/DataStructureVisualizer/build",
+  "command": "/usr/bin/c++  -I/home/ani/Coding/projects/DataStructureVisualizer/cpp/include -I/home/ani/Coding/projects/DataStructureVisualizer/include -g -std=gnu++17 -o CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataVisualizer.cpp",
+  "file": "/home/ani/Coding/projects/DataStructureVisualizer/cpp/src/DataVisualizer.cpp",
+  "output": "CMakeFiles/DSV.dir/cpp/src/DataVisualizer.cpp.o"
+},
+{
+  "directory": "/home/ani/Coding/projects/DataStructureVisualizer/build",
+  "command": "/usr/bin/c++  -I/home/ani/Coding/projects/DataStructureVisualizer/cpp/include -I/home/ani/Coding/projects/DataStructureVisualizer/include -g -std=gnu++17 -o CMakeFiles/DSV.dir/cpp/src/main.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/main.cpp",
+  "file": "/home/ani/Coding/projects/DataStructureVisualizer/cpp/src/main.cpp",
+  "output": "CMakeFiles/DSV.dir/cpp/src/main.cpp.o"
+},
+{
+  "directory": "/home/ani/Coding/projects/DataStructureVisualizer/build",
+  "command": "/usr/bin/c++  -I/home/ani/Coding/projects/DataStructureVisualizer/cpp/include -I/home/ani/Coding/projects/DataStructureVisualizer/include -g -std=gnu++17 -o CMakeFiles/DSV.dir/cpp/src/menu.cpp.o -c /home/ani/Coding/projects/DataStructureVisualizer/cpp/src/menu.cpp",
+  "file": "/home/ani/Coding/projects/DataStructureVisualizer/cpp/src/menu.cpp",
+  "output": "CMakeFiles/DSV.dir/cpp/src/menu.cpp.o"
+}
+]
