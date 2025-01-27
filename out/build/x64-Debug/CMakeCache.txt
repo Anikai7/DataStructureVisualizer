@@ -333,6 +333,9 @@ GLFW_USE_HYBRID_HPG:BOOL=OFF
 //Assume the Vulkan loader is linked with the application
 GLFW_VULKAN_STATIC:BOOL=OFF
 
+//Path to a library.
+LIBCLANG_LIB:FILEPATH=E:/coding/DataStructureVisualizer/external/libclang/lib/libclang.lib
+
 //The directory containing a CMake configuration file for SFML.
 SFML_DIR:PATH=SFML_DIR-NOTFOUND
 

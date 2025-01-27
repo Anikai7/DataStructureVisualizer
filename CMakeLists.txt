@@ -19,7 +19,7 @@ set(NLOHMANN_DIR ${CMAKE_SOURCE_DIR}/external)
 # Collect project sources
 file(GLOB_RECURSE PROJECT_SOURCES
     ${CMAKE_SOURCE_DIR}/src/*.cpp
-    ${CMAKE_SOURCE_DIR}/src/paeser/*.cpp
+    ${CMAKE_SOURCE_DIR}/src/parser/*.cpp
 )
 
 # ImGui sources
@@ -32,7 +32,7 @@ set(IMGUI_SOURCES
     ${IMGUI_DIR}/backends/imgui_impl_glfw.cpp
 )
 
-# Find and link Vulkan
+# Find Vulkan
 find_package(Vulkan REQUIRED)
 
 # GLFW setup
@@ -41,6 +41,15 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL "Don't build GLFW tests")
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "Don't build GLFW docs")
 set(GLFW_VULKAN_STATIC OFF CACHE BOOL "Enable Vulkan support in GLFW")
 add_subdirectory(external/glfw)
+
+# Find LibClang
+set(LIBCLANG_DIR ${CMAKE_SOURCE_DIR}/external/libclang/lib)
+
+# Find the library
+find_library(LIBCLANG_LIB NAMES libclang PATHS ${LIBCLANG_DIR})
+if(NOT LIBCLANG_LIB)
+    message(FATAL_ERROR "libclang not found.")
+endif()
 
 # Add executable target
 add_executable(DSV ${PROJECT_SOURCES} ${IMGUI_SOURCES})
@@ -51,12 +60,12 @@ target_include_directories(DSV PRIVATE
     ${IMGUI_DIR}/include
     ${IMGUI_DIR}/backends
     ${NLOHMANN_DIR}
-    "E:/coding/clang+llvm-19.1.7-x86_64-pc-windows-msvc/include"
+    ${LIBCLANG_DIR}
 )
 
 # Link libraries
 target_link_libraries(DSV PRIVATE
     Vulkan::Vulkan
     glfw
-    "E:/coding/clang+llvm-19.1.7-x86_64-pc-windows-msvc/lib/libclang.lib"
+    ${LIBCLANG_LIB}
 )

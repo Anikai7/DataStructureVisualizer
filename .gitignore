@@ -4,3 +4,5 @@
 *.dll
 *.log
 *.tmp
+/external/
+/out/

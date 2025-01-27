@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_DSV: phony || cmake_object_order_depends
 
 build CMakeFiles\DSV.dir\src\data_visualizer.cpp.obj: CXX_COMPILER__DSV_unscanned_Debug E$:\coding\DataStructureVisualizer\src\data_visualizer.cpp || cmake_object_order_depends_target_DSV
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\include -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
+  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\DataStructureVisualizer\external\libclang\lib -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
   OBJECT_DIR = CMakeFiles\DSV.dir
   OBJECT_FILE_DIR = CMakeFiles\DSV.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\DSV.dir\
@@ -59,7 +59,7 @@ build CMakeFiles\DSV.dir\src\data_visualizer.cpp.obj: CXX_COMPILER__DSV_unscanne
 
 build CMakeFiles\DSV.dir\src\main.cpp.obj: CXX_COMPILER__DSV_unscanned_Debug E$:\coding\DataStructureVisualizer\src\main.cpp || cmake_object_order_depends_target_DSV
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\include -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
+  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\DataStructureVisualizer\external\libclang\lib -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
   OBJECT_DIR = CMakeFiles\DSV.dir
   OBJECT_FILE_DIR = CMakeFiles\DSV.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\DSV.dir\
@@ -67,7 +67,7 @@ build CMakeFiles\DSV.dir\src\main.cpp.obj: CXX_COMPILER__DSV_unscanned_Debug E$:
 
 build CMakeFiles\DSV.dir\src\parser\decl_parsing.cpp.obj: CXX_COMPILER__DSV_unscanned_Debug E$:\coding\DataStructureVisualizer\src\parser\decl_parsing.cpp || cmake_object_order_depends_target_DSV
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\include -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
+  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\DataStructureVisualizer\external\libclang\lib -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
   OBJECT_DIR = CMakeFiles\DSV.dir
   OBJECT_FILE_DIR = CMakeFiles\DSV.dir\src\parser
   TARGET_COMPILE_PDB = CMakeFiles\DSV.dir\
@@ -75,7 +75,7 @@ build CMakeFiles\DSV.dir\src\parser\decl_parsing.cpp.obj: CXX_COMPILER__DSV_unsc
 
 build CMakeFiles\DSV.dir\external\ImGui\imgui.cpp.obj: CXX_COMPILER__DSV_unscanned_Debug E$:\coding\DataStructureVisualizer\external\ImGui\imgui.cpp || cmake_object_order_depends_target_DSV
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\include -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
+  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\DataStructureVisualizer\external\libclang\lib -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
   OBJECT_DIR = CMakeFiles\DSV.dir
   OBJECT_FILE_DIR = CMakeFiles\DSV.dir\external\ImGui
   TARGET_COMPILE_PDB = CMakeFiles\DSV.dir\
@@ -83,7 +83,7 @@ build CMakeFiles\DSV.dir\external\ImGui\imgui.cpp.obj: CXX_COMPILER__DSV_unscann
 
 build CMakeFiles\DSV.dir\external\ImGui\imgui_draw.cpp.obj: CXX_COMPILER__DSV_unscanned_Debug E$:\coding\DataStructureVisualizer\external\ImGui\imgui_draw.cpp || cmake_object_order_depends_target_DSV
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\include -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
+  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\DataStructureVisualizer\external\libclang\lib -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
   OBJECT_DIR = CMakeFiles\DSV.dir
   OBJECT_FILE_DIR = CMakeFiles\DSV.dir\external\ImGui
   TARGET_COMPILE_PDB = CMakeFiles\DSV.dir\
@@ -91,7 +91,7 @@ build CMakeFiles\DSV.dir\external\ImGui\imgui_draw.cpp.obj: CXX_COMPILER__DSV_un
 
 build CMakeFiles\DSV.dir\external\ImGui\imgui_tables.cpp.obj: CXX_COMPILER__DSV_unscanned_Debug E$:\coding\DataStructureVisualizer\external\ImGui\imgui_tables.cpp || cmake_object_order_depends_target_DSV
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\include -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
+  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\DataStructureVisualizer\external\libclang\lib -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
   OBJECT_DIR = CMakeFiles\DSV.dir
   OBJECT_FILE_DIR = CMakeFiles\DSV.dir\external\ImGui
   TARGET_COMPILE_PDB = CMakeFiles\DSV.dir\
@@ -99,7 +99,7 @@ build CMakeFiles\DSV.dir\external\ImGui\imgui_tables.cpp.obj: CXX_COMPILER__DSV_
 
 build CMakeFiles\DSV.dir\external\ImGui\imgui_widgets.cpp.obj: CXX_COMPILER__DSV_unscanned_Debug E$:\coding\DataStructureVisualizer\external\ImGui\imgui_widgets.cpp || cmake_object_order_depends_target_DSV
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\include -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
+  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\DataStructureVisualizer\external\libclang\lib -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
   OBJECT_DIR = CMakeFiles\DSV.dir
   OBJECT_FILE_DIR = CMakeFiles\DSV.dir\external\ImGui
   TARGET_COMPILE_PDB = CMakeFiles\DSV.dir\
@@ -107,7 +107,7 @@ build CMakeFiles\DSV.dir\external\ImGui\imgui_widgets.cpp.obj: CXX_COMPILER__DSV
 
 build CMakeFiles\DSV.dir\external\ImGui\backends\imgui_impl_vulkan.cpp.obj: CXX_COMPILER__DSV_unscanned_Debug E$:\coding\DataStructureVisualizer\external\ImGui\backends\imgui_impl_vulkan.cpp || cmake_object_order_depends_target_DSV
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\include -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
+  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\DataStructureVisualizer\external\libclang\lib -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
   OBJECT_DIR = CMakeFiles\DSV.dir
   OBJECT_FILE_DIR = CMakeFiles\DSV.dir\external\ImGui\backends
   TARGET_COMPILE_PDB = CMakeFiles\DSV.dir\
@@ -115,7 +115,7 @@ build CMakeFiles\DSV.dir\external\ImGui\backends\imgui_impl_vulkan.cpp.obj: CXX_
 
 build CMakeFiles\DSV.dir\external\ImGui\backends\imgui_impl_glfw.cpp.obj: CXX_COMPILER__DSV_unscanned_Debug E$:\coding\DataStructureVisualizer\external\ImGui\backends\imgui_impl_glfw.cpp || cmake_object_order_depends_target_DSV
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\include -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
+  INCLUDES = -IE:\coding\DataStructureVisualizer\include -IE:\coding\DataStructureVisualizer\external\ImGui\include -IE:\coding\DataStructureVisualizer\external\ImGui\backends -IE:\coding\DataStructureVisualizer\external -IE:\coding\DataStructureVisualizer\external\libclang\lib -IE:\coding\DataStructureVisualizer\external\glfw\include -external:IC:\VulkanSDK\1.4.304.0\Include -external:W0
   OBJECT_DIR = CMakeFiles\DSV.dir
   OBJECT_FILE_DIR = CMakeFiles\DSV.dir\external\ImGui\backends
   TARGET_COMPILE_PDB = CMakeFiles\DSV.dir\
@@ -129,10 +129,10 @@ build CMakeFiles\DSV.dir\external\ImGui\backends\imgui_impl_glfw.cpp.obj: CXX_CO
 #############################################
 # Link the executable DSV.exe
 
-build DSV.exe: CXX_EXECUTABLE_LINKER__DSV_Debug CMakeFiles\DSV.dir\src\data_visualizer.cpp.obj CMakeFiles\DSV.dir\src\main.cpp.obj CMakeFiles\DSV.dir\src\parser\decl_parsing.cpp.obj CMakeFiles\DSV.dir\external\ImGui\imgui.cpp.obj CMakeFiles\DSV.dir\external\ImGui\imgui_draw.cpp.obj CMakeFiles\DSV.dir\external\ImGui\imgui_tables.cpp.obj CMakeFiles\DSV.dir\external\ImGui\imgui_widgets.cpp.obj CMakeFiles\DSV.dir\external\ImGui\backends\imgui_impl_vulkan.cpp.obj CMakeFiles\DSV.dir\external\ImGui\backends\imgui_impl_glfw.cpp.obj | C$:\VulkanSDK\1.4.304.0\Lib\vulkan-1.lib external\glfw\src\glfw3.lib E$:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\lib\libclang.lib || external\glfw\src\glfw3.lib
+build DSV.exe: CXX_EXECUTABLE_LINKER__DSV_Debug CMakeFiles\DSV.dir\src\data_visualizer.cpp.obj CMakeFiles\DSV.dir\src\main.cpp.obj CMakeFiles\DSV.dir\src\parser\decl_parsing.cpp.obj CMakeFiles\DSV.dir\external\ImGui\imgui.cpp.obj CMakeFiles\DSV.dir\external\ImGui\imgui_draw.cpp.obj CMakeFiles\DSV.dir\external\ImGui\imgui_tables.cpp.obj CMakeFiles\DSV.dir\external\ImGui\imgui_widgets.cpp.obj CMakeFiles\DSV.dir\external\ImGui\backends\imgui_impl_vulkan.cpp.obj CMakeFiles\DSV.dir\external\ImGui\backends\imgui_impl_glfw.cpp.obj | C$:\VulkanSDK\1.4.304.0\Lib\vulkan-1.lib external\glfw\src\glfw3.lib E$:\coding\DataStructureVisualizer\external\libclang\lib\libclang.lib || external\glfw\src\glfw3.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = C:\VulkanSDK\1.4.304.0\Lib\vulkan-1.lib  external\glfw\src\glfw3.lib  E:\coding\clang+llvm-19.1.7-x86_64-pc-windows-msvc\lib\libclang.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = C:\VulkanSDK\1.4.304.0\Lib\vulkan-1.lib  external\glfw\src\glfw3.lib  E:\coding\DataStructureVisualizer\external\libclang\lib\libclang.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\DSV.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
