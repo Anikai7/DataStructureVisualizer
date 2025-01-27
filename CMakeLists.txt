@@ -12,34 +12,51 @@ if (NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Debug)
 endif()
 
-# Include directories for project headers
-include_directories(
-    ${CMAKE_SOURCE_DIR}/cpp/include
-)
+# Define directories
+set(IMGUI_DIR ${CMAKE_SOURCE_DIR}/external/ImGui)
+set(NLOHMANN_DIR ${CMAKE_SOURCE_DIR}/external)
 
-# Add nlohmann/json as a header-only library
-add_library(nlohmann_json INTERFACE)
-target_include_directories(nlohmann_json INTERFACE ${CMAKE_SOURCE_DIR}/include)
-
-# Add source files
+# Collect project sources
 file(GLOB_RECURSE PROJECT_SOURCES
-    ${CMAKE_SOURCE_DIR}/cpp/src/*.cpp
-    ${CMAKE_SOURCE_DIR}/cpp/src/main.cpp
+    ${CMAKE_SOURCE_DIR}/src/*.cpp
+    ${CMAKE_SOURCE_DIR}/src/paeser/*.cpp
 )
 
-# Find SFML
-find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
+# ImGui sources
+set(IMGUI_SOURCES
+    ${IMGUI_DIR}/imgui.cpp
+    ${IMGUI_DIR}/imgui_draw.cpp
+    ${IMGUI_DIR}/imgui_tables.cpp
+    ${IMGUI_DIR}/imgui_widgets.cpp
+    ${IMGUI_DIR}/backends/imgui_impl_vulkan.cpp
+    ${IMGUI_DIR}/backends/imgui_impl_glfw.cpp
+)
+
+# Find and link Vulkan
+find_package(Vulkan REQUIRED)
+
+# GLFW setup
+set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "Don't build GLFW examples")
+set(GLFW_BUILD_TESTS OFF CACHE BOOL "Don't build GLFW tests")
+set(GLFW_BUILD_DOCS OFF CACHE BOOL "Don't build GLFW docs")
+set(GLFW_VULKAN_STATIC OFF CACHE BOOL "Enable Vulkan support in GLFW")
+add_subdirectory(external/glfw)
 
 # Add executable target
-add_executable(DSV ${PROJECT_SOURCES})
+add_executable(DSV ${PROJECT_SOURCES} ${IMGUI_SOURCES})
 
-# Link SFML libraries
-if (SFML_FOUND)
-    target_link_libraries(DSV sfml-graphics sfml-window sfml-system nlohmann_json)
-else()
-    message(FATAL_ERROR "SFML not found! Make sure SFML is installed.")
-endif()
+# Include directories for the executable
+target_include_directories(DSV PRIVATE
+    ${CMAKE_SOURCE_DIR}/include
+    ${IMGUI_DIR}/include
+    ${IMGUI_DIR}/backends
+    ${NLOHMANN_DIR}
+    "E:/coding/clang+llvm-19.1.7-x86_64-pc-windows-msvc/include"
+)
 
-# Print project information
-message(STATUS "Project binary directory: ${PROJECT_BINARY_DIR}")
-message(STATUS "Project source directory: ${PROJECT_SOURCE_DIR}")
+# Link libraries
+target_link_libraries(DSV PRIVATE
+    Vulkan::Vulkan
+    glfw
+    "E:/coding/clang+llvm-19.1.7-x86_64-pc-windows-msvc/lib/libclang.lib"
+)
